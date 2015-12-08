@@ -1,0 +1,46 @@
+{
+    "ACAO": {
+        "PROGRAMA": {
+            "YEAR": "Year",
+            "CODE": "Code",
+            "PROGRAM_CODE": "Program Code",
+            "NAME": "Name",
+            "PROGRAM": "Program",
+            "SAVE": "Save",
+            "CLEAR": "Clear",
+            "CANCEL": "Cancel",
+            "NEXT": "Next"
+        },
+        "COMMON": {
+            "PROGRAM": "Program",
+            "ACTION_CODE": "Action Code",
+            "LOCATOR_CODE": "Locator Code",
+            "LOCATOR_NAME": "Locator Name",
+            "BUDGET_PLAN_CODE": "Budget Plan Code",
+            "BUDGET_PLAN": "Budget Plan",
+            "CURRENT_ALLOCATION": "Current Allocation",
+            "LIMIT": "Limit"
+        },
+        "ACAO": "Action",
+        "ACTION_CODE": "Action Code",
+        "ACTION_NAME": "Action Name",
+        "NEW_ACTION_CODE": "New Action Code",
+        "NEW_ACTION_NAME": "New Action Name",
+        "LOCATOR_CODE": "Locator Code",
+        "LOCATOR_NAME": "Locator Name",
+        "BUDGET_PLAN_CODE": "Budget Plan Code",
+        "BUDGET_PLAN_NAME": "Budget Plan Name",
+        "NEW_BUDGET_PLAN_CODE": "New Budget Plan Code",
+        "NEW_BUDGET_PLAN_NAME": "New Budget Plan Name",
+        "NEW_ACTION": "New Action",
+        "NEW_BUDGET_PLAN": "New Budget Plan",
+        "SEARCH": "Search",
+        "ADD_ACTION": "Add Action",
+        "ACTION_NUMBER": "Action Number",
+        "CLEAR": "Clear",
+        "SAVE_BUDGET_PLAN": "Save Budget Plan",
+        "REMOVE_SUCCESS": "Action Successfully removed",
+        "ERROR_REMOVING": "Error removing action"
+
+    }
+}

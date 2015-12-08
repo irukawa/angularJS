@@ -1,0 +1,23 @@
+ <div class="row">
+        <form name="form" novalidate>
+            <div class="row">
+                <div style="margin-left: 15px; margin-top: 10px;">
+                    <div class="form-group col-md-2">
+                        <label for="codigo" >Código do Cliente</label>
+                        <input ng-model="cliente.codigo" type="text" class="form-control" id="clienteCodigo" ng-disabled="true"  >
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="nome" >Nome do Cliente</label>
+                        <input  ng-model="cliente.nome" type="text" class="form-control" id="clienteNome" ng-disabled="true" > 
+                    </div>                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group col-md-4 col-md-offset-1">                    
+                    <button class="btn btn-default" type=""  translate ng-click="voltar()">Voltar</button>
+                </div>
+
+            </div>
+        </form>
+</div>

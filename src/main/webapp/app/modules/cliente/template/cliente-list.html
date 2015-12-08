@@ -1,0 +1,35 @@
+<div class="row">
+<div class="row">
+    <div class="col-md-12">
+        <br>                
+        <table class="table table-bordered table-striped" id="table_clientes" ng-show="clientes.length > 0">
+            <tr>
+                <td></td>
+                <td translate>Código do Cliente</td>
+                <td translate>Nome do Cliente</td>                
+            </tr>
+            <tr ng-repeat="cliente in clientes">
+                <td>              
+                    <a conf-modal="modalParams" conf-modal-args="[cliente.codigo]">
+                        <span class="fa-stack fa-lg pull-right">
+                            <i class="fa fa-trash-o"></i>
+                        </span>
+                    </a>    
+                    <a data-toggle="modal" href="#/cliente/{{cliente.codigo}}/edit">
+                        <span class="fa-stack fa-lg pull-right">
+                            <i class="fa fa-pencil">
+                            </i>
+                        </span>
+                    </a>                                                
+                    <a href="#/cliente/{{cliente.codigo}}">
+                        <span class="fa-stack fa-lg pull-right">
+                            <i class="fa fa-eye"></i>
+                        </span>
+                    </a>    
+                </td>                                    
+                <td>{{cliente.codigo}}</td>
+                <td>{{cliente.nome}}</td>                                    
+            </tr>
+        </table>      
+    </div>
+</div>

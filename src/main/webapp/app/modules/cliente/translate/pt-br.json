@@ -1,0 +1,47 @@
+{
+    "ACAO": {
+        "PROGRAMA": {
+            "YEAR": "Ano",
+            "CODE": "Código",
+            "NAME":"Nome",
+            "PROGRAM_CODE": "Código do Programa",
+            "PROGRAM": "Programa",
+            "SAVE": "Salvar",
+            "CLEAR": "Limpar",
+            "CANCEL": "Cancelar",
+            "NEXT": "Próximo"
+        },
+        
+        "COMMON": {
+        "PROGRAM" : "Programa",
+        "ACTION_CODE" : "Cód. da Ação",
+        "LOCATOR_CODE" : "Cód Localizador",
+        "LOCATOR_NAME" : "Nome Localizador",
+        "BUDGET_PLAN_CODE" : "Cód. Plano Orçamentário",
+        "BUDGET_PLAN" : "Plano Orçamentário",
+        "CURRENT_ALLOCATION" : "Dotação Atual",
+        "LIMIT" : "Limite"
+        },
+        
+        "ACAO": "Ação",
+        "ACTION_CODE": "Código da Ação",
+        "ACTION_NAME": "Nome da Ação",
+        "NEW_ACTION_CODE": "Novo Cód. da Ação",
+        "NEW_ACTION_NAME": "Novo Nome da Ação",
+        "LOCATOR_CODE": "Código Localizador",
+        "LOCATOR_NAME": "Nome Localizador",
+        "BUDGET_PLAN_CODE": "Cód. Plano Orçamentário",
+        "BUDGET_PLAN_NAME": "Nome do Plano Orçamentário",
+        "NEW_BUDGET_PLAN_CODE": "Novo Cód. P.O.",
+        "NEW_BUDGET_PLAN_NAME": "Novo Nome do Plano Orçamentário",
+        "NEW_ACTION": "Nova Ação",
+        "NEW_BUDGET_PLAN": "Novo Plano Orçamentário",
+        "SEARCH": "Pesquisar",
+        "ADD_ACTION": "Adicionar Ação",
+        "ACTION_NUMBER": "Número da ação",
+        "CLEAR" : "Limpar",
+        "SAVE_BUDGET_PLAN" : "Salvar Plano Orçamentário",
+        "REMOVE_SUCCESS":"Ação removida com sucesso",
+        "ERROR_REMOVING":"Erro ao remover a ação"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "routes": {
+        "/": {
+            "controller": "HomeController",
+            "controllerUrl": "modules/layout/controller/home",
+            "templateUrl": "app/modules/layout/template/home.html"
+        }, 
+        "/cliente": {
+            "controller": "ClienteListController",
+            "controllerUrl": "modules/cliente/controller/cliente-list",
+            "templateUrl": "app/modules/cliente/template/cliente-list.html"
+        },
+        "/cliente/new": {
+            "controller": "ClienteFormController",
+            "controllerUrl": "modules/cliente/controller/cliente-form",
+            "templateUrl": "app/modules/cliente/template/cliente-form.html"
+        },
+        "/cliente/:id": {
+           "controller": "ClienteViewController",
+            "controllerUrl": "modules/cliente/controller/cliente-view",
+            "templateUrl": "app/modules/cliente/template/cliente-view.html"
+        },
+        "/cliente/:id/edit": {
+           "controller": "ClienteFormController",
+            "controllerUrl": "modules/cliente/controller/cliente-form",
+            "templateUrl": "app/modules/cliente/template/cliente-form.html"
+        }
+        
+    },
+    "menu": [
+        {
+            "href": "home",
+            "title": "LAYOUT.HOME",
+            "icon": "icon-contacts",
+            "children": []
+        },    
+        {
+            "href": "cliente",
+            "title": "Clientes",
+            "icon": "icon-contacts",
+            "children": []
+        }
+    ]
+}
